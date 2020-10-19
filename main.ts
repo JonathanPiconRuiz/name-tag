@@ -1,8 +1,8 @@
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    effects.smiles.startScreenEffect(1000)
+    effects.hearts.startScreenEffect(1000)
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    effects.hearts.startScreenEffect(1000)
+    effects.smiles.startScreenEffect(1000)
 })
 scene.setBackgroundColor(2)
 scene.setBackgroundImage(img`
